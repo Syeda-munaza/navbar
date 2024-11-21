@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="nav-bar.css" />
+
+    <title>Navigation-bar</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="dropdown">
+        <button class="dropbtn">
+          Keep Coders
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#"><i class="fa-brands fa-html5"></i>Frontend</a>
+          <a href="#"><i class="fa-brands fa-java"></i>Backend</a>
+          <a href="#"><i class="fa-solid fa-database"></i>Database</a>
+        </div>
+      </div>
+
+      <a href="#home"> <i class="fa-solid fa-house"></i>Home</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">
+          Menu
+          <i class="fa-solid fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#"><i class="fa-solid fa-link"></i>Menu 1</a>
+          <a href="#"><i class="fa-solid fa-link"></i>Menu 2</a>
+          <a href="#"><i class="fa-solid fa-link"></i>Menu 3</a>
+        </div>
+      </div>
+
+      <a href="#news"><i class="fa-regular fa-newspaper"></i>Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Dropdown
+          <i class="fa-solid fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#"><i class="fa-regular fa-user"></i>User</a>
+          <a href="#"><i class="fa-solid fa-wifi"></i>Wifi</a>
+          <a href="#"><i class="fa-regular fa-comment"></i>Comment</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="nav-bar.js"></script>
+  </body>
+</html>
